@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Maragani Govardhan | Telugu Copywriter, Creative Writer &amp; Creative Producer</title>
+<meta name="description" content="Telugu senior copywriter with 8+ years of experience in ad copy, promo scripts, reels and digital content. Open to freelance projects and full-time roles.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500;800&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF2F6; --surface:#FFFFFF; --ink:#14213D; --muted:#4F6078; --line:#CBD5E1; --accent:#B7791F; --accent-ink:#FFFFFF;
+  --serif:"Noto Serif",Georgia,serif;
+  --sans:"Noto Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#0F1A2E; --surface:#16233B; --ink:#E8EEF7; --muted:#A3B3CA; --line:#2C3D5B; --accent:#E3B04B; --accent-ink:#0F1A2E;}
+}
+:root[data-theme="dark"]{--bg:#0F1A2E; --surface:#16233B; --ink:#E8EEF7; --muted:#A3B3CA; --line:#2C3D5B; --accent:#E3B04B; --accent-ink:#0F1A2E;}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:1.0625rem;line-height:1.7}
+main{max-width:52rem;margin:0 auto;padding:0 1.25rem 4rem}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+
+.hero{padding:clamp(3rem,9vw,6.5rem) 0 clamp(2.5rem,6vw,4rem);border-bottom:2px solid var(--ink)}
+.hero h1{font-family:var(--serif);font-weight:800;font-size:clamp(2.6rem,10vw,5.6rem);line-height:1.05;margin:0}
+.hero .role{font-family:var(--serif);font-weight:500;font-size:clamp(1.2rem,3.5vw,1.7rem);margin:.8rem 0 0;color:var(--muted)}
+.hero .lead{max-width:38rem;margin:1.75rem 0 2rem;font-size:1.15rem}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);font-weight:600;text-decoration:none;padding:.7rem 1.4rem;border-radius:.4rem}
+.btn:hover{filter:brightness(1.08)}
+.actions{display:flex;flex-wrap:wrap;gap:.7rem}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink);padding:calc(.7rem - 2px) calc(1.4rem - 2px)}
+button.btn{border:0;font:inherit;font-weight:600;cursor:pointer;margin-top:1.4rem}
+.avail{font-weight:600;margin:0 0 1.25rem}
+.stats{list-style:none;display:flex;flex-wrap:wrap;gap:1.5rem 2.5rem;margin:2.5rem 0 1.75rem;padding:0}
+.stats b{display:block;font-family:var(--serif);font-size:2rem;line-height:1.1;color:var(--ink)}
+.stats li{color:var(--muted);font-size:.95rem}
+.brandlabel{margin:0 0 .5rem;color:var(--muted);font-size:.95rem}
+
+section{padding:clamp(2.2rem,5vw,3.4rem) 0;border-bottom:1px solid var(--line)}
+h2{font-family:var(--serif);font-weight:800;font-size:clamp(1.6rem,4.5vw,2.2rem);line-height:1.2;margin:0 0 1.2rem}
+p{margin:0 0 1rem;max-width:42rem}
+
+.focus{display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));margin-top:1.5rem}
+.focus div{border-left:3px solid var(--accent);padding-left:1rem}
+.focus h3{font-family:var(--serif);font-size:1.15rem;margin:0 0 .2rem}
+.focus p{margin:0;color:var(--muted);font-size:1rem}
+
+.timeline{list-style:none;margin:0;padding:0 0 0 1.4rem;border-left:2px solid var(--line)}
+.timeline li{position:relative;padding:0 0 2rem 1.2rem}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{content:"";position:absolute;left:-1.4rem;top:.55rem;width:.8rem;height:.8rem;transform:translateX(-45%);border-radius:50%;background:var(--bg);border:3px solid var(--accent)}
+.timeline li.now::before{background:var(--accent)}
+.timeline h3{font-family:var(--serif);font-size:1.25rem;margin:0}
+.timeline .org{font-weight:600;margin:0;color:var(--muted)}
+.timeline .when{font-size:.9rem;color:var(--muted);margin:0 0 .4rem}
+.timeline p.d{margin:0;max-width:40rem}
+
+.cards{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:.5rem;padding:1.1rem 1.2rem}
+.card h3{font-family:var(--serif);font-size:1.15rem;margin:0 0 .15rem;line-height:1.3}
+.card .tag{font-size:.9rem;color:var(--muted);margin:0 0 .6rem}
+.card p{font-size:1rem;margin:0 0 .6rem}
+.card a.go{font-weight:600;color:var(--accent);text-underline-offset:4px}
+.card details summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.card details div{white-space:pre-wrap;margin-top:.7rem}
+
+.chips{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.55rem}
+.chips li{background:var(--surface);border:1px solid var(--line);border-radius:2rem;padding:.2rem 1rem;font-size:.98rem}
+.two{display:grid;gap:2rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+.two h3{font-family:var(--serif);font-size:1.15rem;margin:0 0 .6rem}
+.edu{margin:0 0 1rem}
+.edu span{display:block;color:var(--muted);font-size:.95rem}
+
+.contact{border-bottom:0}
+.contact .mail{font-family:var(--serif);font-weight:800;font-size:clamp(1.1rem,4.2vw,1.9rem);word-break:break-all;text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:3px;text-underline-offset:6px}
+footer{color:var(--muted);font-size:.9rem;padding-top:1rem}
+@media (prefers-reduced-motion:no-preference){.hero h1{animation:rise .7s ease-out both}@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}}
+</style>
+</head>
+<body>
+<main>
+<header class="hero">
+  <h1>Maragani Govardhan</h1>
+  <p class="role">Telugu Senior Copywriter, Creative Writer &amp; Creative Producer</p>
+  <p class="lead">Eight years of writing Telugu ad copy, promo scripts, reels and news features for people who read, watch and listen in their own language.</p>
+  <p class="avail">Open to freelance projects and full-time roles.</p>
+  <div class="actions">
+    <a class="btn" href="mailto:govardhan.maragani67@gmail.com">Email me</a>
+    <a class="btn ghost" href="#videos">See my work</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/maragani-govardhan-499733159/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </div>
+  <ul class="stats">
+    <li><b>8+</b>years writing Telugu</li>
+    <li><b>6</b>media and tech teams</li>
+    <li><b>3</b>languages</li>
+  </ul>
+  <p class="brandlabel">Has written for</p>
+  <ul class="chips"><li>Pocket FM</li><li>Apps for Bharat</li><li>Hindustan Times Telugu</li><li>Samayam Telugu</li><li>ETV Bharat</li></ul>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I am a Telugu copywriter, creative writer and creative producer with 8+ years of experience. I specialise in D2C marketing, digital campaigns and regional storytelling, backed by a strong understanding of consumer psychology, A/B testing and conversion optimisation.</p>
+  <p>I work closely with marketing, design and production teams to deliver content that gets results.</p>
+  <div class="focus">
+    <div><h3>Performance copy</h3><p>Ad creatives, landing page copy and brand messaging.</p></div>
+    <div><h3>Creative writing &amp; production</h3><p>Scripts for reels, promos, audio ads and product videos, taken from idea to finished creative.</p></div>
+    <div><h3>Journalism &amp; SEO</h3><p>Articles and translations across entertainment, sports, astrology and automobiles.</p></div>
+  </div>
+</section>
+
+<section id="writing" hidden>
+  <h2>Writing samples</h2>
+  <div class="cards" id="writingList"></div>
+</section>
+
+<section id="videos" hidden>
+  <h2>Videos</h2>
+  <div class="cards" id="videoList"></div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <ol class="timeline">
+    <li class="now">
+      <h3>Senior Copywriter, South (Telugu)</h3>
+      <p class="org">Apps for Bharat</p>
+      <p class="when">Present</p>
+      <p class="d">Write high-converting ad copy and product scripts for spiritual and astrology products. Specialise in D2C marketing, Instagram/Reels scripts and emotion-driven storytelling for regional audiences, plus landing page copy and brand messaging.</p>
+    </li>
+    <li>
+      <h3>Telugu Promo Writer</h3>
+      <p class="org">Pocket FM</p>
+      <p class="when">December 2023 – March 2026</p>
+      <p class="d">Wrote promo scripts, audio ads and in-app campaign content. Used hook-based short scripts to lift click-through rates and listener retention, and refined content with A/B tests and audience insights.</p>
+    </li>
+    <li>
+      <h3>Senior Content Producer</h3>
+      <p class="org">HT Digital Streams (Hindustan Times Telugu)</p>
+      <p class="when">November 2021 – May 2023</p>
+      <p class="d">Wrote Telugu articles for the Entertainment and Sports sections, including trending stories, video stories and translations.</p>
+    </li>
+    <li>
+      <h3>Digital Content Producer</h3>
+      <p class="org">Times Internet (Samayam Telugu)</p>
+      <p class="when">January 2020 – November 2021</p>
+      <p class="d">Led the Astrology and Automobile sections. Handled content writing, translation, SEO, video creation and social media posting.</p>
+    </li>
+    <li>
+      <h3>Content Writer / Editor</h3>
+      <p class="org">ETV Bharat</p>
+      <p class="when">May 2018 – January 2020</p>
+      <p class="d">Covered the Entertainment and Sports sections.</p>
+    </li>
+    <li>
+      <h3>Copywriter</h3>
+      <p class="org">The Amaravati Voice</p>
+      <p class="when">July 2016 – April 2018</p>
+    </li>
+  </ol>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul class="chips">
+    <li>Translation</li><li>Feature writing</li><li>Copy editing</li><li>Script writing</li><li>Promo production</li><li>Proofreading</li><li>Social media</li><li>Content strategy</li><li>SEO</li><li>Video editing (EDIUS 9)</li><li>Canva video</li><li>Public speaking</li>
+  </ul>
+</section>
+
+<section id="education">
+  <div class="two">
+    <div>
+      <h2>Education</h2>
+      <p class="edu">PG Diploma, Mass Communication &amp; Journalism<span>IGNOU, 2019 – 2020</span></p>
+      <p class="edu">B.Tech, Electrical &amp; Electronics Engineering<span>VRS &amp; YRN College of Engineering and Technology, Chirala, 2009 – 2013</span></p>
+      <p class="edu">NCC “A” Certificate</p>
+    </div>
+    <div>
+      <h2>Languages</h2>
+      <ul class="chips"><li>Telugu</li><li>English</li><li>Hindi</li></ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Let’s work together</h2>
+  <p>Need a strong Telugu voice for your brand, channel or app? I take on freelance copy and script projects and am open to full-time roles. Send a short note on what you need and your timeline, and I will reply with a plan.</p>
+  <a class="mail" href="mailto:govardhan.maragani67@gmail.com">govardhan.maragani67@gmail.com</a>
+  <p style="margin-top:1.5rem;font-weight:600"><a href="https://www.linkedin.com/in/maragani-govardhan-499733159/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a></p>
+  <footer>© 2026 Maragani Govardhan</footer>
+</section>
+</main>
+
+<script>
+/* ADD YOUR WORK HERE. Empty lists keep the section hidden. */
+const WRITING = [
+  // { title:"Title", tag:"Ad copy · 2025", excerpt:"One or two lines.", text:"Full text (optional)", url:"https://link (optional)" }
+];
+const VIDEOS = [
+  { title:"Video 1", tag:"YouTube Short · Script by Govardhan", url:"https://www.youtube.com/shorts/lhC6fcYfZjk" },
+  { title:"Video 2", tag:"YouTube · Script by Govardhan", url:"https://youtu.be/a18l2B8umsA" },
+  { title:"Manmadhudu 2", tag:"Pocket FM · YouTube · Script by Govardhan", url:"https://youtu.be/zawLxnbWBf0" },
+  { title:"House Husband", tag:"Pocket FM promo · YouTube · Script by Govardhan", url:"https://youtu.be/Seb38zbTg-0" },
+  { title:"Video 5", tag:"Script by Govardhan", url:"https://drive.google.com/file/d/1fIFyzVSuIbqUEZzQqN3VA2ntK6jn5MYv/view" },
+  { title:"Video 6", tag:"Script by Govardhan", url:"https://drive.google.com/file/d/14houBe9c35d1i5bk78FkXWXSr9H7S1I1/view" },
+  { title:"Video 7", tag:"Script by Govardhan", url:"https://drive.google.com/file/d/1am76EqfSYie7P84fqzcvm13EYIuW2Ct4/view" },
+  { title:"Video 8", tag:"Script by Govardhan", url:"https://drive.google.com/file/d/1U8cyRaqO69QBtFO5iyxM8qWoq8gE7BEj/view" },
+  { title:"Video 9", tag:"Script by Govardhan", url:"https://drive.google.com/file/d/11q7kb78whzzMJD5S3u8IxradHO40k77s/view" },
+  { title:"Video 10", tag:"Script by Govardhan", url:"https://drive.google.com/file/d/1kSw-36498IcYTz8AmGgDZkN7yMjqkm00/view" },
+  { title:"Video 11", tag:"Script by Govardhan", url:"https://drive.google.com/file/d/17p_qvK_R8CeMl_j-6h5xtagga56PF0OJ/view" },
+  { title:"Video 12", tag:"Script by Govardhan", url:"https://drive.google.com/file/d/1PLdVCl4RRLm3i0Wtv8oZTOEc1EtzkF-w/view" },
+  { title:"Video 13", tag:"Script by Govardhan", url:"https://drive.google.com/file/d/1VQU1OAAXze8w-ENBnU5JLFJuvYopmhUr/view" },
+  { title:"Video 14", tag:"Script by Govardhan", url:"https://drive.google.com/file/d/1e5f0TmDraR5z8KXJSPD-4F-eCjN7yTgt/view" },
+  { title:"Video 15", tag:"Script by Govardhan", url:"https://drive.google.com/file/d/1IC7Meyia_6abNldsBWZ4r8inWWpOHHId/view" }
+];
+function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+function safe(u){return /^https?:\/\//i.test(u||"")}
+function render(list,boxId,secId,video){
+  if(!list.length)return;
+  const box=document.getElementById(boxId);
+  list.forEach(it=>{
+    const c=el("div","card");
+    c.appendChild(el("h3",null,it.title));
+    if(it.tag)c.appendChild(el("p","tag",it.tag));
+    if(it.excerpt)c.appendChild(el("p",null,it.excerpt));
+    if(it.text){const d=el("details");d.appendChild(el("summary",null,"Read full piece"));d.appendChild(el("div",null,it.text));c.appendChild(d)}
+    if(safe(it.url)){const a=el("a","go",video?"Watch video":"Read online");a.href=it.url;a.target="_blank";a.rel="noopener noreferrer";c.appendChild(a)}
+    box.appendChild(c);
+  });
+  document.getElementById(secId).hidden=false;
+}
+render(WRITING,"writingList","writing",false);
+render(VIDEOS,"videoList","videos",true);
+(function(){const cs=[...document.querySelectorAll("#videoList .card")];if(cs.length<=6)return;cs.slice(6).forEach(c=>c.hidden=true);const b=el("button","btn","Show all "+cs.length+" videos");b.type="button";b.onclick=()=>{cs.forEach(c=>c.hidden=false);b.remove()};document.getElementById("videos").appendChild(b)})();
+</script>
+</body>
+</html>
